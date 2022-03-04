@@ -1,7 +1,6 @@
 const fs =  require('fs');
 
 const crearArchivo = async(base = 1) => {
-    
     try {
         console.log('=======================');
         console.log('    Tabla del:', base);
