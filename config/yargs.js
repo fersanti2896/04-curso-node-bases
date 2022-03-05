@@ -12,6 +12,13 @@ const argv = require("yargs")
                         type: "boolean",
                         default: false,
                         describe: 'Muestra la tabla en consola'
+                    },
+                    h: {
+                        alias: 'hasta',
+                        type: 'number',
+                        demandOption: true,
+                        default: 10,
+                        describe: 'Rango de multiplicación'
                     }
                 })
                 .check((argv, options) => {

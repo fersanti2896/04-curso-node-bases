@@ -6,6 +6,6 @@ const argv = require('./config/yargs');
 console.clear();
 
 /* Uso de argv */
-crearArchivo(argv.b, argv.l)
+crearArchivo(argv.b, argv.l, argv.h)
     .then(nombreArchivo => console.log(nombreArchivo))
     .catch(console.log);
