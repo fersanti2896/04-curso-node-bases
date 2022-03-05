@@ -1,6 +1,6 @@
 {
   "name": "bases-node-1",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Es una simple tabla de multiplicar con archivo de texto",
   "main": "app.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/fersanti2896/04-curso-node-bases#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "yargs": "^17.3.1"
   }
 }
