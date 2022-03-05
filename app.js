@@ -7,5 +7,5 @@ console.clear();
 
 /* Uso de argv */
 crearArchivo(argv.b, argv.l)
-    .then(nombreArchivo => console.log(nombreArchivo, 'creado'))
+    .then(nombreArchivo => console.log(nombreArchivo))
     .catch(console.log);
